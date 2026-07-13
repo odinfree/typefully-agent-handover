@@ -1,0 +1,9 @@
+{
+  "write_set": 123456,
+  "expected_targets": {
+    "x": "your_x_handle",
+    "linkedin": "your-linkedin-slug",
+    "threads": "your_threads_handle",
+    "bluesky": "your-handle.bsky.social"
+  }
+}

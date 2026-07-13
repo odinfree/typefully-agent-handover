@@ -1,0 +1,25 @@
+name: test
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  unittest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - run: python -m unittest discover -s tests -v
+      - run: >-
+          python -m py_compile
+          scripts/typefully
+          scripts/typefully_lib.py
+          scripts/stopslop-gate
+          scripts/stopslop_gate.py
+          scripts/typefully_smart_schedule.py

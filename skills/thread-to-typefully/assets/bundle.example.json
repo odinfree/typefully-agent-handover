@@ -1,0 +1,23 @@
+{
+  "schema": "thread-to-typefully-v1",
+  "platforms": ["x"],
+  "title": "PROPOSED: [agent] concise internal label",
+  "posts": [
+    "Exact final post copy"
+  ],
+  "media": [],
+  "quote_post_url": null,
+  "source": {
+    "thread": "current conversation",
+    "public_boundary": "Only public facts and the owner's public-safe judgment are included.",
+    "x_sources": []
+  },
+  "gate": {
+    "live_rules_loaded": true,
+    "ai_role_checked": true,
+    "reader_fit_checked": true,
+    "stopslop_rewrite_pass": true,
+    "voice_pass": true,
+    "second_reader_pass": true
+  }
+}
