@@ -58,7 +58,7 @@ def load_sources(root=None):
     if not root.is_dir():
         sys.exit(
             f"Stop Slop rules directory not found: {root}. Clone "
-            "https://github.com/welttowelt/stop-slop-refined there or set "
+            "https://github.com/odinfree/stop-slop-refined there or set "
             "STOPSLOP_RULES_DIR."
         )
     paths = sorted(p for p in root.rglob("*.md") if ".git" not in p.parts)

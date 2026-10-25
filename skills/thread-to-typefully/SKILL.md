@@ -14,9 +14,9 @@ preflight-token flow with the owner's approval.
 ## Sources this skill must load first
 
 1. The Stop Slop rules: run `scripts/stopslop-gate context` (reads the local
-   clone of <https://github.com/welttowelt/stop-slop-refined>, or your fork
+   clone of <https://github.com/odinfree/stop-slop-refined>, or your fork
    via `STOPSLOP_RULES_DIR`). The rendered rules live at
-   <https://welttowelt.github.io/stop-slop-refined/>.
+   <https://odinfree.github.io/stop-slop-refined/>.
 2. The owner's voice and account playbook notes, wherever your team keeps
    them.
 3. `references/scout-roster.md` for quote-post scouting targets.

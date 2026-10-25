@@ -62,10 +62,10 @@ seatbelts, not substitutes for judgment.
 3. **Stop Slop rules**: clone the public rules the gate reads:
 
    ```sh
-   git clone https://github.com/welttowelt/stop-slop-refined ~/stop-slop-refined
+   git clone https://github.com/odinfree/stop-slop-refined ~/stop-slop-refined
    ```
 
-   Readable version: <https://welttowelt.github.io/stop-slop-refined/>.
+   Readable version: <https://odinfree.github.io/stop-slop-refined/>.
    Point `STOPSLOP_RULES_DIR` elsewhere if you keep your own fork — teams
    should fork and make the rules their own.
 
